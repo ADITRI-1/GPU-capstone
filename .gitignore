@@ -1,0 +1,8 @@
+bin/
+data/input/
+# Raw edge maps are large; keep logs, CSV and figures as proof artifacts.
+output/*.pgm
+__pycache__/
+*.o
+*.zip
+*.pdf

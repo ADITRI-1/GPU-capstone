@@ -1,0 +1,44 @@
+Device : Tesla T4 (compute 7.5, 40 SMs, 14912 MiB)
+Images : 30 from data/input
+Params : sigma=1.50 threshold=0 verify=yes
+
+image                               size  kernel_ms   total_ms     cpu_ms  speedup   check
+scene_000_512x512.ppm            512x512      0.144      0.501      16.91   117.3x    PASS
+scene_001_1024x768.ppm          1024x768      0.365      1.298      70.14   192.4x    PASS
+scene_002_1280x720.ppm          1280x720      0.362      1.448      76.93   212.7x    PASS
+scene_003_1920x1080.ppm        1920x1080      0.806      2.709     169.03   209.8x    PASS
+scene_004_2048x2048.ppm        2048x2048      1.702      5.366     358.34   210.6x    PASS
+scene_005_3840x2160.ppm        3840x2160      3.758     10.780     721.31   191.9x    PASS
+scene_006_4096x2160.ppm        4096x2160      3.976     13.241     772.95   194.4x    PASS
+scene_007_512x512.ppm            512x512      0.133      0.504      20.78   156.7x    PASS
+scene_008_1024x768.ppm          1024x768      0.367      1.356      63.49   172.9x    PASS
+scene_009_1280x720.ppm          1280x720      0.432      1.395      70.84   163.9x    PASS
+scene_010_1920x1080.ppm        1920x1080      0.944      2.877     160.17   169.7x    PASS
+scene_011_2048x2048.ppm        2048x2048      1.899      5.569     351.86   185.3x    PASS
+scene_012_3840x2160.ppm        3840x2160      3.729     13.397     403.36   108.2x    PASS
+scene_013_4096x2160.ppm        4096x2160      4.031     12.617     499.39   123.9x    PASS
+scene_014_512x512.ppm            512x512      0.129      0.548      21.21   164.5x    PASS
+scene_015_1024x768.ppm          1024x768      0.369      1.263      46.48   126.1x    PASS
+scene_016_1280x720.ppm          1280x720      0.432      1.319      40.61    93.9x    PASS
+scene_017_1920x1080.ppm        1920x1080      0.956      2.883      93.87    98.1x    PASS
+scene_018_2048x2048.ppm        2048x2048      1.889      5.857     221.38   117.2x    PASS
+scene_019_3840x2160.ppm        3840x2160      3.738     11.832     434.33   116.2x    PASS
+scene_020_4096x2160.ppm        4096x2160      4.100     11.950     469.85   114.6x    PASS
+scene_021_512x512.ppm            512x512      0.130      0.466      11.97    92.2x    PASS
+scene_022_1024x768.ppm          1024x768      0.371      1.163      35.91    96.9x    PASS
+scene_023_1280x720.ppm          1280x720      0.431      1.323      39.90    92.6x    PASS
+scene_024_1920x1080.ppm        1920x1080      0.945      2.809      91.01    96.3x    PASS
+scene_025_2048x2048.ppm        2048x2048      1.862      5.503     209.50   112.5x    PASS
+scene_026_3840x2160.ppm        3840x2160      3.803     10.942     424.09   111.5x    PASS
+scene_027_4096x2160.ppm        4096x2160      3.962     11.553     449.80   113.5x    PASS
+scene_028_512x512.ppm            512x512      0.127      0.459      11.25    88.9x    PASS
+scene_029_1024x768.ppm          1024x768      0.369      1.168      36.18    98.0x    PASS
+
+==== Summary ====
+Images processed      : 30 (102.6 megapixels)
+GPU kernel time       : 46.26 ms (2217.2 MPix/s)
+GPU incl. transfers   : 144.10 ms (711.8 MPix/s)
+CPU reference time    : 6392.82 ms (16.0 MPix/s)
+Kernel speedup vs CPU : 138.2x
+Verification          : 30/30 passed
+Timing log            : output/timing.csv
